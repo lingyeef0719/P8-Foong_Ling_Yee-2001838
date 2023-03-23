@@ -23,7 +23,7 @@ public class Level3Activity extends AppCompatActivity {
     private CountDownTimer countDownTimer;
     private TextView highlightedView;
     private boolean complete_level = false;
-    private Button exitButton, nextLevelButton, startButton;z
+    private Button exitButton, nextLevelButton, startButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
