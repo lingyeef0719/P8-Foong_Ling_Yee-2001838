@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level2Activity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: 0"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                android:id="@+id/timerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time: 5"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="38dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="@drawable/my_border"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="@drawable/my_border"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="3"
+                android:background="@drawable/my_border"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:background="@drawable/my_border"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/my_border"
+                android:text="5"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="6"
+                android:background="@drawable/my_border"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:background="@drawable/my_border"
+                android:layout_height="150dp"
+                android:text="7"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="8"
+                android:background="@drawable/my_border"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="9"
+                android:background="@drawable/my_border"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/nextLevelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next Level"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/exitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
